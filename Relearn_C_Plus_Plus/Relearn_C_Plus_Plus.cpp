@@ -1,3 +1,11 @@
+// To whom it may concern:
+// sins.txt was created to debug an issue where some words were not being alphabatized correctly.
+// It is no longer used, or even mentioned, anywhere in the code, but I kept it and gave fraud.txt
+// its name because I thought it was kind of funny how it sounded like something out of Ultrakill.
+// Speaking of which, fraud.txt is the output this program produced when I ran it properly, before
+// I tacked on all the polymorphism stuff, which I simply copied from the terminal and pasted into it.
+// By selecting Wordle and then No from the main menu, you can see the program output without actually
+// waiting four hours for it to run.
 #pragma region notmain
 #pragma region wordlestuff
 #include <iostream>
@@ -50,13 +58,6 @@ void print(vector<char>& word, int newLine = 0, string filename = "a")
         }
     }
 }
-
-// BAOOY BOOAY
-// DAHKS DHAKS
-// FCIOS FICOS
-// FALNS FLANS
-// FDOSU FOUDS
-//
 
 bool mySwap(vector<char>& word, int a)
 {
@@ -614,7 +615,8 @@ int main()
     
     // Sort all of the words
     // This DOES copy the entire thing. Just because it's a bad idea, doesn't mean C++ will stop you. 
-    // (To be clear, I'm doing this because we need to remember what the words were before I jumbled them so that we can have an actual output.)
+    // (To be clear, I'm doing this because we need to remember what the words 
+    // were before I jumbled them so that we can have an actual output.)
     std::cout << "Sorting..." << endl;
     auto sorted = raw;
     for (int i = 0; i < fileLength; i++)
@@ -655,6 +657,8 @@ int main()
                 // the alternative is to run a sorting algorithm on sorted to sort the sorted words against each other
                 // there's a chance I'll end up needing to do that regardless... But what algorithm would I use???
                 // probably merge sort?
+                // Update: In hindsight, this is definitely worth it, although I doubt
+                // that this will speed up the program this by more than maybe double.
             }
         }
 
@@ -667,13 +671,11 @@ int main()
         }
     }
     std::cout << "Pruned!" << endl;
-    // 12972 -> 6222, that is HUGE! If this really is O(n^5), then this will run ~39x faster as a result!
+    // 12972 -> 6222, that is HUGE! If this really is O(n^5), then this should run ~39x faster as a result!
 
 
 
 
-    vector<int> indices = { 0, 1, 2, 3, 4 };
-    bool saulGoodman = true;
     const int size = pruned.size();
     std::cout << pruned.size() << endl;
     //pause();
@@ -682,11 +684,12 @@ int main()
     chrono::high_resolution_clock::time_point start_time = chrono::high_resolution_clock::now();
     chrono::high_resolution_clock::time_point current_time = chrono::high_resolution_clock::now();
     chrono::high_resolution_clock::time_point previous_time = chrono::high_resolution_clock::now();
-    // this size - 4 business shouldn't *really* be necessary...
+    // This size - 4 business shouldn't *really* be necessary, but better safe than sorry.
     for (int wordOne = 0; wordOne < size - 4; wordOne++)
     {
-        // we don't ever have to increment wordOne beyond the loop definition,
+        // We don't ever have to increment wordOne beyond the loop definition,
         // because there is nothing for it to conflict with.
+        // Removing the words with double letters earlier already took care of that.
         for (int wordTwo = wordOne + 1; wordTwo < size - 3; wordTwo++)
         {
             while (
@@ -706,6 +709,8 @@ int main()
                     if (wordThree == size - 2)
                         break;
                 }
+                // this layer slows down the program the most. It may be worth concatenating words 1-3
+                // and comparing wordFour (and wordFive) to the whole thing at once.
                 for (int wordFour = wordThree + 1; wordFour < size - 1; wordFour++)
                 {
                     while (
@@ -767,6 +772,7 @@ int main()
                 }
             }
         }
+        // benchmarking with a subset of four-word combinations:
         // 99 seconds to do 30 on ascending logical operator order
         // 149 seconds on descending order
         // I think the first word tends to hog more common letters, so it's better at eliminating
@@ -784,38 +790,41 @@ int main()
         }
     }
     std::cout << "Done!" << endl;
-    return pause();
-    while(saulGoodman && i < 7663)
-    {
-        while (matchLetter(pruned[indices[0]], pruned[indices[1]]))
-        {
-            // this line of code is going to appear a LOT...
-            // (unless I refactor it)
-            // but the ONLY character that can change is that 1, which can also be 2, 3, or 4.
-            // but I have to copy the whole line, or add way more if statements elsewhere, 
-            // or learn some more advanced technique, or make some variables global, if C++ even allows that.
-            if (bump(indices, size, 1, i > 7660)) return 0;
-        }
-        if (indices[2] < indices[1] + 1)
-            indices[2] = indices[1] + 1;
-        while (
-            matchLetter(pruned[indices[0]], pruned[indices[2]]) || 
-            matchLetter(pruned[indices[1]], pruned[indices[2]]))
-        {
-            if (bump(indices, size, 2, i > 7660)) return 0;
-        }
-        if (i > 7660)
-        {
-            print(raw[rawIndex[indices[0]]]);
-            std::cout << " " << indices[0] << " ";
-            print(raw[rawIndex[indices[1]]]);
-            std::cout << " " << indices[1] << " ";
-            print(raw[rawIndex[indices[2]]]);
-            std::cout << " " << indices[2] << endl;
-        }
-        if (bump(indices, size, 2, i > 7660)) return 0;
-        i++;
-    }
+
+
+    //vector<int> indices = { 0, 1, 2, 3, 4 };
+    // this strategy was too complicated; I thought it could somehow save me from having a O(n^5) nested loop
+    //while(i < 7663)
+    //{
+    //    while (matchLetter(pruned[indices[0]], pruned[indices[1]]))
+    //    {
+    //        // this line of code is going to appear a LOT...
+    //        // (unless I refactor it)
+    //        // but the ONLY character that can change is that 1, which can also be 2, 3, or 4.
+    //        // but I have to copy the whole line, or add way more if statements elsewhere, 
+    //        // or learn some more advanced technique, or make some variables global, if C++ even allows that.
+    //        if (bump(indices, size, 1, i > 7660)) return 0;
+    //    }
+    //    if (indices[2] < indices[1] + 1)
+    //        indices[2] = indices[1] + 1;
+    //    while (
+    //        matchLetter(pruned[indices[0]], pruned[indices[2]]) || 
+    //        matchLetter(pruned[indices[1]], pruned[indices[2]]))
+    //    {
+    //        if (bump(indices, size, 2, i > 7660)) return 0;
+    //    }
+    //    if (i > 7660)
+    //    {
+    //        print(raw[rawIndex[indices[0]]]);
+    //        std::cout << " " << indices[0] << " ";
+    //        print(raw[rawIndex[indices[1]]]);
+    //        std::cout << " " << indices[1] << " ";
+    //        print(raw[rawIndex[indices[2]]]);
+    //        std::cout << " " << indices[2] << endl;
+    //    }
+    //    if (bump(indices, size, 2, i > 7660)) return 0;
+    //    i++;
+    //}
     //print(pruned[indices[0]]);
     //print(pruned[indices[1]]);
 
