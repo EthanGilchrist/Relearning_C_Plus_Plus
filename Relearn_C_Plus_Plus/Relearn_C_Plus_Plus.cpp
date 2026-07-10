@@ -292,7 +292,7 @@ public:
             return fishes[index].height;
         return -1;
     }
-    int getWeight(int index)
+    float getWeight(int index)
     {
         if (index < dogs.size())
             return dogs[index].weight;
@@ -339,20 +339,20 @@ public:
     }
 };
 
-void newerPet(string& type, Animal& newPet)
+void newerPet(string& type, Animal* newPet)
 {
     string temp;
     cout << "\n\nWhat is the " << type << "'s name?\n";
-    getline(cin, newPet.name);
-    cout << "How old is " << newPet.name << "?\n";
+    getline(cin, (*newPet).name);
+    cout << "How old is " << (*newPet).name << "?\n";
     getline(cin, temp);
-    newPet.age = stoi(temp);
-    cout << "How many pounds does " << newPet.name << " weigh?\n";
+    (*newPet).age = stoi(temp);
+    cout << "How many pounds does " << (*newPet).name << " weigh?\n";
     getline(cin, temp);
-    newPet.weight = stof(temp);
-    cout << "How many inches tall is " << newPet.name << "?\n";
+    (*newPet).weight = stof(temp);
+    cout << "How many inches tall is " << (*newPet).name << "?\n";
     getline(cin, temp);
-    newPet.height = stof(temp);
+    (*newPet).height = stof(temp);
 }
 
 void newPet(string& type, Pets& pets)
@@ -360,73 +360,33 @@ void newPet(string& type, Pets& pets)
     // all of this code used to actually make sense, but it was dependent
     // on some false assumptions about how classes work in C++
     //Animal newPet = Animal("", 0, 0.0, 0.0);
-    Dog newDog = Dog("", 0, 0.0, 0.0);
-    Cat newCat = Cat("", 0, 0.0, 0.0);
-    Bird newBird = Bird("", 0, 0.0, 0.0);
-    Fish newFish = Fish("", 0, 0.0, 0.0);
+    Dog* newDog = new Dog("", 0, 0.0, 0.0);
+    Cat* newCat = new Cat("", 0, 0.0, 0.0);
+    Bird* newBird = new Bird("", 0, 0.0, 0.0);
+    Fish* newFish = new Fish("", 0, 0.0, 0.0);
     string temp;
     if (type == "dog")
     {
-        cout << "\n\nWhat is the dog's name?\n";
-        getline(cin, newDog.name);
-        cout << "How old is " << newDog.name << "?\n";
-        getline(cin, temp);
-        newDog.age = stoi(temp);
-        cout << "How many pounds does " << newDog.name << " weigh?\n";
-        getline(cin, temp);
-        newDog.weight = stof(temp);
-        cout << "How many inches tall is " << newDog.name << "?\n";
-        getline(cin, temp);
-        newDog.height = stof(temp);
-        pets.dogs.push_back(newDog);
+        newerPet(type, newDog);
+        pets.dogs.push_back(*newDog);
         pets.total++;
     }
     else if (type == "cat")
     {
-        cout << "\n\nWhat is the cat's name?\n";
-        getline(cin, newCat.name);
-        cout << "How old is " << newCat.name << "?\n";
-        getline(cin, temp);
-        newCat.age = stoi(temp);
-        cout << "How many pounds does " << newCat.name << " weigh?\n";
-        getline(cin, temp);
-        newCat.weight = stof(temp);
-        cout << "How many inches tall is " << newCat.name << "?\n";
-        getline(cin, temp);
-        newCat.height = stof(temp);
-        pets.cats.push_back(newCat);
+        newerPet(type, newCat);
+        pets.cats.push_back(*newCat);
         pets.total++;
     }
     else if (type == "fish")
     {
-        cout << "\n\nWhat is the fish's name?\n";
-        getline(cin, newFish.name);
-        cout << "How old is " << newFish.name << "?\n";
-        getline(cin, temp);
-        newFish.age = stoi(temp);
-        cout << "How many pounds does " << newFish.name << " weigh?\n";
-        getline(cin, temp);
-        newFish.weight = stof(temp);
-        cout << "How many inches tall is " << newFish.name << "?\n";
-        getline(cin, temp);
-        newFish.height = stof(temp);
-        pets.fishes.push_back(newFish);
+        newerPet(type, newFish);
+        pets.fishes.push_back(*newFish);
         pets.total++;
     }
     else if (type == "bird")
     {
-        cout << "\n\nWhat is the bird's name?\n";
-        getline(cin, newBird.name);
-        cout << "How old is " << newBird.name << "?\n";
-        getline(cin, temp);
-        newBird.age = stoi(temp);
-        cout << "How many pounds does " << newBird.name << " weigh?\n";
-        getline(cin, temp);
-        newBird.weight = stof(temp);
-        cout << "How many inches tall is " << newBird.name << "?\n";
-        getline(cin, temp);
-        newBird.height = stof(temp);
-        pets.birds.push_back(newBird);
+        newerPet(type, newBird);
+        pets.birds.push_back(*newBird);
         pets.total++;
     }
     else
