@@ -1,0 +1,347 @@
+Ready...Loading...
+Loaded! lineNum: 12972
+Sorting...
+Sorted!
+Pruning...
+Pruned!
+5182
+Time elapsed this loop: 163 seconds
+Total time elapsed so far: 163 seconds
+
+Time elapsed this loop: 183 seconds
+Total time elapsed so far: 347 seconds
+
+Time elapsed this loop: 165 seconds
+Total time elapsed so far: 512 seconds
+
+Time elapsed this loop: 203 seconds
+Total time elapsed so far: 716 seconds
+
+Time elapsed this loop: 148 seconds
+Total time elapsed so far: 864 seconds
+
+Time elapsed this loop: 104 seconds
+Total time elapsed so far: 969 seconds
+
+Time elapsed this loop: 285 seconds
+Total time elapsed so far: 1255 seconds
+
+Time elapsed this loop: 499 seconds
+Total time elapsed so far: 1754 seconds
+
+Time elapsed this loop: 394 seconds
+Total time elapsed so far: 2149 seconds
+
+1 BEMIX 460 CLUNK 1096 GRYPT 2387 VOZHD 4884 WAQFS 4921
+Discovered after: 2223 seconds
+
+Time elapsed this loop: 408 seconds
+Total time elapsed so far: 2558 seconds
+
+Time elapsed this loop: 498 seconds
+Total time elapsed so far: 3057 seconds
+
+2 BLING 561 JUMPY 2855 TRECK 4652 VOZHD 4884 WAQFS 4921
+Discovered after: 3228 seconds
+
+3 BLUNK 590 CIMEX 1019 GRYPT 2387 VOZHD 4884 WAQFS 4921
+Discovered after: 3646 seconds
+
+Time elapsed this loop: 718 seconds
+Total time elapsed so far: 3775 seconds
+
+Time elapsed this loop: 390 seconds
+Total time elapsed so far: 4165 seconds
+
+Time elapsed this loop: 596 seconds
+Total time elapsed so far: 4762 seconds
+
+4 BRICK 709 GLENT 2250 JUMPY 2855 VOZHD 4884 WAQFS 4921
+Discovered after: 4869 seconds
+
+5 BRUNG 734 CYLIX 1310 KEMPT 2911 VOZHD 4884 WAQFS 4921
+Discovered after: 5239 seconds
+
+Time elapsed this loop: 713 seconds
+Total time elapsed so far: 5476 seconds
+
+Time elapsed this loop: 1097 seconds
+Total time elapsed so far: 6573 seconds
+
+Time elapsed this loop: 259 seconds
+Total time elapsed so far: 6833 seconds
+
+Time elapsed this loop: 177 seconds
+Total time elapsed so far: 7010 seconds
+
+Time elapsed this loop: 270 seconds
+Total time elapsed so far: 7281 seconds
+
+Time elapsed this loop: 477 seconds
+Total time elapsed so far: 7759 seconds
+
+6 CHUNK 1006 FJORD 1911 GYMPS 2428 VIBEX 4834 WALTZ 4913
+Discovered after: 7865 seconds
+
+Time elapsed this loop: 324 seconds
+Total time elapsed so far: 8083 seconds
+
+7 CLIPT 1063 JUMBY 2853 KRENG 3006 VOZHD 4884 WAQFS 4921
+Discovered after: 8193 seconds
+
+Time elapsed this loop: 330 seconds
+Total time elapsed so far: 8413 seconds
+
+Time elapsed this loop: 254 seconds
+Total time elapsed so far: 8668 seconds
+
+Time elapsed this loop: 228 seconds
+Total time elapsed so far: 8896 seconds
+
+Time elapsed this loop: 280 seconds
+Total time elapsed so far: 9177 seconds
+
+Time elapsed this loop: 392 seconds
+Total time elapsed so far: 9569 seconds
+
+Time elapsed this loop: 145 seconds
+Total time elapsed so far: 9715 seconds
+
+Time elapsed this loop: 138 seconds
+Total time elapsed so far: 9853 seconds
+
+Time elapsed this loop: 200 seconds
+Total time elapsed so far: 10054 seconds
+
+Time elapsed this loop: 150 seconds
+Total time elapsed so far: 10205 seconds
+
+Time elapsed this loop: 152 seconds
+Total time elapsed so far: 10357 seconds
+
+Time elapsed this loop: 178 seconds
+Total time elapsed so far: 10535 seconds
+
+Time elapsed this loop: 291 seconds
+Total time elapsed so far: 10827 seconds
+
+Time elapsed this loop: 119 seconds
+Total time elapsed so far: 10947 seconds
+
+Time elapsed this loop: 58 seconds
+Total time elapsed so far: 11006 seconds
+
+Time elapsed this loop: 99 seconds
+Total time elapsed so far: 11105 seconds
+
+Time elapsed this loop: 119 seconds
+Total time elapsed so far: 11225 seconds
+
+Time elapsed this loop: 138 seconds
+Total time elapsed so far: 11363 seconds
+
+8 FJORD 1911 GUCKS 2392 NYMPH 3634 VIBEX 4834 WALTZ 4913
+Discovered after: 11430 seconds
+
+Time elapsed this loop: 234 seconds
+Total time elapsed so far: 11597 seconds
+
+Time elapsed this loop: 162 seconds
+Total time elapsed so far: 11760 seconds
+
+Time elapsed this loop: 151 seconds
+Total time elapsed so far: 11912 seconds
+
+Time elapsed this loop: 238 seconds
+Total time elapsed so far: 12150 seconds
+
+Time elapsed this loop: 112 seconds
+Total time elapsed so far: 12263 seconds
+
+Time elapsed this loop: 68 seconds
+Total time elapsed so far: 12331 seconds
+
+Time elapsed this loop: 82 seconds
+Total time elapsed so far: 12413 seconds
+
+9 GLENT 2250 JUMBY 2853 PRICK 4006 VOZHD 4884 WAQFS 4921
+Discovered after: 12414 seconds
+
+Time elapsed this loop: 85 seconds
+Total time elapsed so far: 12499 seconds
+
+Time elapsed this loop: 98 seconds
+Total time elapsed so far: 12597 seconds
+
+Time elapsed this loop: 108 seconds
+Total time elapsed so far: 12705 seconds
+
+Time elapsed this loop: 98 seconds
+Total time elapsed so far: 12804 seconds
+
+Time elapsed this loop: 25 seconds
+Total time elapsed so far: 12830 seconds
+
+Time elapsed this loop: 36 seconds
+Total time elapsed so far: 12866 seconds
+
+Time elapsed this loop: 29 seconds
+Total time elapsed so far: 12895 seconds
+
+Time elapsed this loop: 42 seconds
+Total time elapsed so far: 12938 seconds
+
+Time elapsed this loop: 43 seconds
+Total time elapsed so far: 12982 seconds
+
+Time elapsed this loop: 24 seconds
+Total time elapsed so far: 13006 seconds
+
+Time elapsed this loop: 46 seconds
+Total time elapsed so far: 13053 seconds
+
+Time elapsed this loop: 72 seconds
+Total time elapsed so far: 13126 seconds
+
+10 JUMBY 2853 PLING 3917 TRECK 4652 VOZHD 4884 WAQFS 4921
+Discovered after: 13139 seconds
+
+Time elapsed this loop: 46 seconds
+Total time elapsed so far: 13172 seconds
+
+Time elapsed this loop: 23 seconds
+Total time elapsed so far: 13196 seconds
+
+Time elapsed this loop: 25 seconds
+Total time elapsed so far: 13221 seconds
+
+Time elapsed this loop: 26 seconds
+Total time elapsed so far: 13248 seconds
+
+Time elapsed this loop: 14 seconds
+Total time elapsed so far: 13263 seconds
+
+Time elapsed this loop: 15 seconds
+Total time elapsed so far: 13278 seconds
+
+Time elapsed this loop: 12 seconds
+Total time elapsed so far: 13291 seconds
+
+Time elapsed this loop: 21 seconds
+Total time elapsed so far: 13312 seconds
+
+Time elapsed this loop: 14 seconds
+Total time elapsed so far: 13327 seconds
+
+Time elapsed this loop: 10 seconds
+Total time elapsed so far: 13337 seconds
+
+Time elapsed this loop: 16 seconds
+Total time elapsed so far: 13353 seconds
+
+Time elapsed this loop: 14 seconds
+Total time elapsed so far: 13367 seconds
+
+Time elapsed this loop: 12 seconds
+Total time elapsed so far: 13380 seconds
+
+Time elapsed this loop: 20 seconds
+Total time elapsed so far: 13401 seconds
+
+Time elapsed this loop: 8 seconds
+Total time elapsed so far: 13409 seconds
+
+Time elapsed this loop: 7 seconds
+Total time elapsed so far: 13416 seconds
+
+Time elapsed this loop: 4 seconds
+Total time elapsed so far: 13421 seconds
+
+Time elapsed this loop: 3 seconds
+Total time elapsed so far: 13425 seconds
+
+Time elapsed this loop: 2 seconds
+Total time elapsed so far: 13428 seconds
+
+Time elapsed this loop: 3 seconds
+Total time elapsed so far: 13432 seconds
+
+Time elapsed this loop: 3 seconds
+Total time elapsed so far: 13435 seconds
+
+Time elapsed this loop: 7 seconds
+Total time elapsed so far: 13443 seconds
+
+Time elapsed this loop: 4 seconds
+Total time elapsed so far: 13448 seconds
+
+Time elapsed this loop: 5 seconds
+Total time elapsed so far: 13453 seconds
+
+Time elapsed this loop: 4 seconds
+Total time elapsed so far: 13458 seconds
+
+Time elapsed this loop: 3 seconds
+Total time elapsed so far: 13461 seconds
+
+Time elapsed this loop: 1 seconds
+Total time elapsed so far: 13463 seconds
+
+Time elapsed this loop: 2 seconds
+Total time elapsed so far: 13465 seconds
+
+Time elapsed this loop: 1 seconds
+Total time elapsed so far: 13466 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13467 seconds
+
+Time elapsed this loop: 1 seconds
+Total time elapsed so far: 13468 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13469 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13470 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13471 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13471 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13472 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13472 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13473 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13473 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13473 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13473 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13473 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13473 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13473 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13473 seconds
+
+Time elapsed this loop: 0 seconds
+Total time elapsed so far: 13473 seconds
+
+Done!
