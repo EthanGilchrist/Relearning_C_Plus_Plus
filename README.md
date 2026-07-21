@@ -1,6 +1,6 @@
 # Finding five words for Wordle with no repeating letters
 
-Using Wordle's dictionary, this program searches for sets of five words such that no letter appears twice. Before any of that happens, there is a completely unrelated menu that allows the user to enter information about their pets, but I only wrote any of that to practice using polymorphism.
+Using Wordle's dictionary, this program searches for sets of five words such that no letter appears twice.
 
 ## Instructions for Build and Use
 
@@ -14,8 +14,7 @@ Alternatively, downloading Relearn_C_Plus_Plus.exe, five-letter-words.txt, and f
 ## Instructions for using the software:
 
 1. Run Relearn_C_Plus_Plus.exe, either with your IDE's debug tool or by running it directly, depending on how you downloaded it.
-2. A terminal should open with a list of commands. In the main menu, the program will compare the first letter of the user's input against the letters in parantheses. Exit (e) or Quit (q) will close the program.
-3. Assuming you are not interested in the pets thing, entering "Wordle" will run the main part of the program. You will be be asked whether you want to run the program for yourself, or just display the output. If you say "No", the program will load the original output from fraud.txt. If you say "Yes" it will load Wordle's dictionary from five-letter-words.txt and begin searching for combinations from scratch.
+2. A terminal should open and ask if you want to run the main portion of the code, as opposed to simply viewing the original output. If you say "No", the program will load the original output from fraud.txt. If you say "Yes" it will load Wordle's dictionary from five-letter-words.txt and begin searching for combinations from scratch.
 
 ## Development Environment
 
