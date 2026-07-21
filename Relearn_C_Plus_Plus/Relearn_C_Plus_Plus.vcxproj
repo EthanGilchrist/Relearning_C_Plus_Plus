@@ -183,9 +183,6 @@
       <DeploymentContent>true</DeploymentContent>
     </Text>
     <Text Include="fraud.txt" />
-    <Text Include="sins.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />

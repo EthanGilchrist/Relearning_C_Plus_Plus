@@ -21,7 +21,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="five-letter-words.txt" />
-    <Text Include="sins.txt" />
     <Text Include="fraud.txt" />
   </ItemGroup>
   <ItemGroup>
