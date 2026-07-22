@@ -6,6 +6,8 @@ Using Wordle's dictionary, this program searches for sets of five words such tha
 
 Steps to build and/or run the software:
 
+I recently (7/21/2026) added a .zip file which contains a version of the .exe file targeted for x86 architecture, which should make things much easier than either of the below options, and should run on most computers. Download the .zip file, extract it, and run the .exe file at your own risk. (Downloading and executing .exe files is always dangerous. You only have my word that I didn't create this entire project to trick you into downloading unrelated malware.)
+
 1. Clone the repository within an IDE
 2. Use the IDE to build/run the code.
 
